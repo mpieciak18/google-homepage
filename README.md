@@ -1,1 +1,3 @@
-# the_odin_project
+# A simple Google homepage clone
+
+(From the Odin Project)
