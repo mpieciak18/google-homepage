@@ -1,0 +1,132 @@
+body {
+    font-family: arial, sans-serif;
+}
+.top-menu-link {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    padding: 0 8px 0 8px;
+}
+.menu-link:hover {
+    text-decoration: underline;
+}
+#sign-in-button {
+    background-color: #4285f4;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px 12px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 2px;
+}
+#top-menu {
+    height: auto;
+    overflow: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+#top-menu-left {
+    display:flex;
+    align-items: center;
+}
+#top-menu-right {
+    display:flex;
+    align-items: center;
+}
+#apps {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    padding: 0 10px 0 7.5px;
+}
+#logo {
+    margin: 0 auto;
+    display: block;
+    width: 272px;
+    padding: 109px 0 30px 0;
+}
+#search-box, #button-area {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+#search-box {
+    display: flex;
+    border: 1px solid rgb(220, 220, 220);
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    width: 575px;
+    height: 43px;
+    align-items: center;
+}
+#search-box:hover {
+    box-shadow: 0 0 5px 2px rgb(225, 225, 225);
+}
+#search-field {
+    border-width: 0px;
+    border: none;
+    width: 100%;
+    background: transparent;
+    padding-left: 10px;
+    font-size: 16px;
+}
+#search-logo {
+    width: 17.5px;
+    height: 17.5px;
+    padding: 0 0 0 15px;
+}
+#search-mic {
+    width: 24px;
+    height: 24px;
+    padding: 0 15px 0 0;
+}
+.button {
+    border-width: 0px;
+    border: none;
+    font-size: small;
+    padding: 10px 20px;
+    color: rgb(75, 75, 75);
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    margin: 30px 4px 0px 4px;
+}
+.button:hover {
+    border: 1px solid rgb(201, 201, 201);
+    color: rgb(45, 45, 45);
+    background-color: rgb(248, 248, 248);
+}
+#bottom-menu {
+    background-color: rgb(245, 245, 245);
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.bottom-menu-link {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    padding: 4px 15px;
+}
+.bottom-menu-link:hover {
+    text-decoration: underline;
+}
+#bottom-menu-left {
+    display:flex;
+    align-items: center;
+}
+#bottom-menu-right {
+    display:flex;
+    align-items: center;
+    padding-right: 40px;
+}
